@@ -1,0 +1,20 @@
+ useEffect call data = > Books state 
+const filterBook = Books.filter( (one) = > one.title.toLowerCase()includes(searchData.toLowerCase()))
+loop filterBook 
+
+  const [formData ,setFormData] = useState({ name : '' , email : ''});
+  const formHandle = (e) => {
+       const {name ,value}  = e.target ;
+       setFormData((prev) => ({
+        ...prev  , [name] : value
+       }))
+  }
+const add = () => {
+    setArray([...array , formData])
+}
+
+ onchang={formHandle}
+
+
+
+ UI Tailwind , Jpa Custom Query  , Mvc security
